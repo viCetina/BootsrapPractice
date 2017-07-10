@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Grid</title>
+	<title>Text</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
@@ -33,13 +33,13 @@
 	<p>Use the mark tag to<mark>highlight</mark>text</p>
 
 	<!--<abbr> Mark up an abbrebiation-->
-	<p>The<abbr title="Abbreviation">abbr</abbr> tag is used to mark up an abbrebiation or acronym</p>
+	<p>The<abbr title="Abbreviation">abbr</abbr> element is used to mark up an abbrebiation or acronym</p>
 
 	<!--<blockquote> Present content from another source-->
 	<div class="container">
 		<h1>Blockquote</h1>
 		<blockquote>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illo maiores, vel a dignissimos mollitia odio doloremque dolores iusto at? Beatae nobis amet, eveniet minus veritatis sapiente cumque aliquid incidunt.</p>
+			<p>(blockquote element) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illo maiores, vel a dignissimos mollitia odio doloremque dolores iusto at? Beatae nobis amet, eveniet minus veritatis sapiente cumque aliquid incidunt.</p>
 			<p>show the quote on the left</p>
 			<footer>Source name</footer>
 		</blockquote>
@@ -56,7 +56,7 @@
 
 	<!--<dl> Indicates a description list-->
 	<div class="container">
-		<h1>Description List</h1>
+		<h1>(dl) Indicates a Description List</h1>
 		<dl>
 		<dt>Coffe</dt>
 		  <dd>- Black</dd>
@@ -68,14 +68,14 @@
 		</dl>
 	</div>
 
-	<!--<dl> Inline snippets of code-->
+	<!--<code> Inline snippets of code-->
 	<h1>Code Snippets</h1>
-	<p>Inline snippets of code should beembedded in the code tag</p>
+	<p>Inline snippets of code should beembedded in the (code) element</p>
 	<p>Example: css property <code>color:red;</code></p>
 
 	<!--<pre> Elements for multiples lines of code-->
 	<h1>Muliple Code Lines</h1>
-	<p>The -pre- element displayed multiples lines of code</p>
+	<p>The (pre) element displayed multiples lines of code</p>
 	<pre>
 		Css extract:
 		h1{
@@ -104,20 +104,61 @@
 	<p class="bg-warning">This text represents a warning(.bg-warning)</p>
 	<p class="bg-danger">This text represents danger (.bg-danger)</p>
 
-	<p class="lead">Make a paragraph stand out</p>
-	<p class="small">Indicates smaller text (set to 85% of the size of the parent)</p>
-	<p class="text-left">Indicates left-aligned text</p>
-	<p class="text-center">Indicates center-aligned text</p>
-	<p class="text-right">Indicates right-aligned text</p>
-	<p class="s"></p>
-	<p class="s"></p>
-	<p class="s"></p>
-	<p class="s"></p>
-	<p class="s"></p>
-	<p class="s"></p>
-	<p class="s"></p>
-	<p class="s"></p>
-	<p class="s"></p>
-	<p class="s"></p>
+	<p class="lead">(.lead) Make a paragraph stand out</p>
+	<p class="small">(.small) Indicates smaller text (set to 85% of the size of the parent)</p>
+	<p class="text-left">(.text-left) Indicates left-aligned text</p>
+	<p class="text-center">(.text-center) Indicates center-aligned text</p>
+	<p class="text-right">(.text-right) Indicates right-aligned text</p>
+	<p class="text-justify">(.text-justify) Indicates justified text</p>
+	<p class="text-nowrap">(.text-nowrap) Indicates no wrap text</p>
+	<p class="text-lowercase">(.text-lowercase) Indicates lowercased text</p>
+	<p class="text-uppercase">(.text-uppercase) Indicates uppercased text</p>
+	<p class="text-capitalize">(.text-capitalize) Indicates capitalized text</p>
+	<p class="initialism">(.initialism) Display the text inside an abbr element in a slightly smaller font size</p>
+	<p>(.list-unstyled) Removes the default list-style and left margin on list items</p>
+		<ul class="list-unstyled">
+			<li>uno</li>
+			<li>dos</li>
+		</ul>
+		<ol class="list-unstyled">
+			<li>uno</li>
+			<li>dos</li>
+		</ol>
+	<p class="list-inline">(.list-inline) Places all list items on a single line</p>
+		<ul class="list-inline">
+			<li>uno</li>
+			<li>dos</li>
+		</ul>
+		<ol class="list-inline">
+			<li>uno</li>
+			<li>dos</li>
+		</ol>
+	<p>(.dl-horizontal)Lines up the terms(dt) and descriptions (dd) in (dl) elements syde by side.</p>
+	<h1>Description List</h1>
+			<dl class="dl-horizontal">
+			<dt>Coffe</dt>
+			  <dd>- Black</dd>
+			  <dd>- With milk</dd>
+			<dt>Sodas</dt>
+			  <dd>CocaCola</dd>
+			  <dd>7up</dd>
+			  <dd>Sprite</dd>
+			</dl>
+	<p>(.pre-scrollable) Makes a (pre) element scrollable</p>
+		<pre class="pre-scrollable">
+		Css extract:
+			h1{
+			  color:red;
+			  font-size:15px;
+			}
+			h2{
+			  color:red;
+			  font-size:15px;
+			}
+			h3{
+			  color:red;
+			  font-size:15px;
+			}
+	</pre>
 </body>
 </html>
