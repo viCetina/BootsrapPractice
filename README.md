@@ -1,2 +1,2 @@
-# BootsrapPractice
-Bootsrap Practice
+# BootstrapPractice
+Bootstrap Practice
