@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Alerts</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	
+	<h1>Bootstrap Alerts</h1>
+	<p>Bootstrap provides an easy way to create predefined alert massages</p>
+
+	<div class="container">
+		<h2>Alerts</h2>
+		<div class="alert alert-success">
+			<p><strong>SUCCESS!!!</strong> The .alert alert-success element indicate a successful or positive action.</p>
+		</div>
+		<div class="alert alert-info">
+			<p><strong>INFO!!!</strong> The .alert atert-info element indicates a neutral informative change or action.</p>
+		</div>
+		<div class="alert alert-warning">
+			<p><strong>WARNING!!!</strong> The .alert alert-warning element indicates a warning that might need attention.</p>
+		</div>
+		<div class="alert alert-danger">
+			<p><strong>Danger!!!</strong> This alert box could indicates a dangerous or potentially negative action.</p>
+		</div>
+	</div>
+	
+	<div class="container">
+		<h2>Alert Links</h2>
+		<p>Add the alert link inside the alert box to create "matching colored links":</p>
+		<div class="alert alert-success">
+			<strong>Success!</strong><a href="#" class="alert-link"> You should be able to click this message.</a>
+		</div>
+		<div class="alert alert-info">
+			<strong>Info!</strong><a href="#" class="alert-link"> You should be able to click this message.</a>
+		</div>
+		<div class="alert alert-warning">
+			<strong>Warning!</strong><a href="#" class="alert-link"> You should be able to click this message.</a>
+		</div>
+		<div class="alert alert-danger">
+			<strong>Danger!</strong><a href="#" class="alert-link"> You should be able to click this message.</a>
+		</div>
+	</div>
+
+	<div class="container">
+		<h2>Closing Alert</h2>
+		<p>To close the alert message, add a .alert-dismissable class to the container. The add class="close" and data-dismiss="alert" to a link or a button element (when you click on this the alert box will disappear).</p>
+		<p>The alert-dismissable class adds some extra padding to the close button.</p>
+		
+		<div class="alert alert-success alert-dismissable">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+			<strong>Success!</strong><p> This alert box could indicate a succesful or positive action.</p>
+		</div>
+		<div class="alert alert-info">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+			<strong>Info!</strong><p> This alert box could idicate a neutral informative change or action.</p>
+		</div>
+		<div class="alert alert-warning">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+			<strong>Warning!</strong><p> This alert box could indicate a warning that might need attention.</p>
+		</div>
+		<div class="alert alert-danger">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+			<strong>Danger!</strong><p> This alert box could indicate a dangerous or potentially negative action.</p>
+		</div>
+	</div>
+	
+	<h3>The aria-* attribute and "&times;" explanation</h3>
+		<p>To help improve accesibility for people using screen readers, you should include the aria-label="close" attribute, when creating a close button.</p>
+		<p>"&times;" (x) is an HTML entity that is the preferred icon for close buttons, rather than the letter "x"</p>
+		
+	<div class="container">
+		<h2>Animated Alerts</h2>
+		<p>The .fade and .in classes adds a fadding effect when closin the alert message.</p>
+		
+		<div class="alert alert-success alert-dismissable fade in">
+			<a href="#" class="close" data-dismiss="alert" aria-lable="close">&times;</a>
+			<strong>Success!</strong><p>This alert box could indicate a successful or positive action.</p>
+		</div>
+
+		<div class="alert alert-info alert-dismissable fade in">
+			<a href="#" class="close" data-dismiss="alert" aria-lable="close">&times;</a>
+			<strong>Info:</strong><p>This alert box could indicate a neutral informative change or action.</p>
+		</div>
+
+		<div class="alert alert-warning alert-dismissable fade in">
+			<a href="#" class="close" data-dismiss="alert" aria-lable="close">&times;</a>
+			<strong>Warning!!</strong><p>This alert box could indicate a warning that might need attention.</p>
+		</div>
+
+		<div class="alert alert-danger alert-dismissable fade in">
+			<a href="#" class="close" data-dismiss="alert" aria-lable="close">&times;</a>
+			<strong>Danger!!!</strong><p>This alert box indicate a dangerous or potentially negative action.</p>
+		</div>
+	</div>
+	
+</body>
+</html>

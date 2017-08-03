@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Jumbotron</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	
+	<h1>Jumbotron, Page Header and, Wells. <small>.jumbotron applied to a div element</small></h1>
+
+	<div class="jumbotron">
+	<h2>Jumbotron Outside of container.</h2>
+	<p>A jumbotron indicates a big box for calling extra attention to some special content or information.</p>
+	<p>A jumbotron is dispayed as a grey box with rounded corners. It also enlarge the font size of the text inside it.</p>
+	</div>
+	<div class="container">
+		<p>text in another div outside of .jumbotron</p>
+		<p>text in another div outside of .jumbotron</p>
+	</div>
+
+	<div class="container">
+		<div class="jumbotron">
+			<h2>Jumbotron Inside a Container</h2>
+			<p>Inside a jumbotron you can put nearly any valid HTML, including other bootstrap elements/classes.</p>
+		</div>
+		<p>text inside of .container but outside of .jumbotron</p>
+		<p>text inside of .container but outside of .jumbotron</p>
+	</div>
+	
+	<div class="container">
+		<div class="page-header">
+			<h2>Page Header</h2>
+		</div>
+		<p>text outside of the .page-header element</p>
+		<p>text outside of the .page-header element</p>
+	</div>
+
+	<div class="container">
+		<h2>Basic Well</h2>
+		<div class="well">Text inside the .well element</div>
+	</div>
+
+	<div class="container">
+		<h2>Well Sizes</h2>
+		<div class="well well-sm">Small Well</div>
+		<div class="well">Normal well. (By default, wells are medium size).</div>
+		<div class="well well-lg">Large Well</div>
+	</div>
+</body>
+</html>
